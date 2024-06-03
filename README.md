@@ -14,7 +14,9 @@ import math
 from sklearn.metrics import mean_squared_error
 ```
 And we looked at some plots and statistics.
-`sns.boxplot(rent_df_cleaned['last_price'])`
+```
+sns.boxplot(rent_df_cleaned['last_price'])
+```
 ![alt text](download.png)
 
 Cleaned some of the outliers.
